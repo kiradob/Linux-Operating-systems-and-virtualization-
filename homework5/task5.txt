@@ -1,0 +1,24 @@
+Задание 1
+apt install docker - установка пакета
+apt remove docker - удаление пакета
+apt purge docker - полное удаление
+apt update - обновление информации в репозитории
+apt upgrate - обновление всех пакетов
+
+Задание 2
+dpkg
+dpkg -l - просмотр списка пакетов
+dpkg -i - установка пакетов
+dpkg -r - удаление пакетов
+apt -f install - установка зависимости пакетов
+
+Задание 3
+snap - пакет
+snap install docker - установка пакета
+snap refresh docker - обновление пакета
+snap remove docker - удаление пакета
+snap list - просмотр установленных пакетов 
+
+Задание 4
+crontab -e
+*/3 * * * * echo '4.Операционные системы и виртуализация (Linux)'>>/HW5/homework5.txt
